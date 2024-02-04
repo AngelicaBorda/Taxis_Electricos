@@ -1,4 +1,4 @@
-# ** Análisis de Datos para Empresa de Transporte de Pasajeros**
+# **Análisis de Datos para Empresa de Transporte de Pasajeros**
 
 
 ## **Contexto**
@@ -22,14 +22,14 @@ Acompañar a la empresa en el proceso de toma de decisiones. Para ello, utilizar
 
 ## **Almacenamiento de Datos (Data Warehouse):**
 
-    -**Base de Datos Relacional (PostgreSQL o MySQL):**
+-**Base de Datos Relacional (PostgreSQL o MySQL):**
 **Fundamentación:**
 Estabilidad y confiabilidad.
 Modelado relacional para manejar relaciones entre datos.
 Amplia comunidad y soporte.
 Escalabilidad para proyectos de tamaño medio.
 
-    -**Almacenamiento en la Nube (Amazon RDS, Google Cloud SQL, o Azure SQL Database):**
+-**Almacenamiento en la Nube (Amazon RDS, Google Cloud SQL, o Azure SQL Database):**
 **Fundamentación:**
 Escalabilidad y flexibilidad en la nube.
 Gestión de base de datos automatizada.
@@ -38,13 +38,13 @@ Facilidad de acceso desde diferentes ubicaciones.
 
 ## **Extracción y Depuración de Datos:**
 
-    -**Pandas:**
+-**Pandas:**
 **Fundamentación:**
 Potente biblioteca de Python para manipulación y análisis de datos.
 Funciones integradas para limpieza y transformación de datos.
 Compatibilidad con diversas fuentes de datos.
 
-    -**ETL (Apache NiFi o Apache Airflow):**
+-**ETL (Apache NiFi o Apache Airflow):**
 **Fundamentación:**
 Automatización de flujos de trabajo ETL.
 Programación y ejecución de tareas de extracción, transformación y carga.
