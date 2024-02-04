@@ -171,44 +171,11 @@ https://www.nyc.gov/html/dot/downloads/pdf/curbside-level-2-charging-pilot-faq.p
 
 
 
+PENDIENTE: de esta etapa nos quedaria mejorar
 
-
-
-
-
-
-
-
-
-
-Solución propuesta
-Deben detallar qué tareas harán para cumplir los objetivos de trabajo propuestos previamente y cómo lo harán (metodologías de trabajo, forma de organización, distribución de tareas, roles de cada uno dentro del equipo, etc). También, deben detallar qué productos surgirán de su trabajo y en qué etapa los presentarán, teniendo en cuenta los requerimientos generales (entregables esperados) para cada etapa del proyecto.
-
-
-A su vez, deben realizar una estimación de tiempo para cada tarea, contemplando los tiempos de ejecución globales y los hitos previstos para cada semana; y plasmar esa estimación en un diagrama de Gantt.
-
-
-Una parte muy importante de la solución propuesta, es con qué herramientas (stack tecnológico) van a realizar la arquitectura del proyecto. Para esto, lo que van a tener que hacer es seleccionar una pequeña porción de los datos que disponen y realizar un proceso de limpieza y transformación utilizando las herramientas que planean implementar. Esto les dará una idea de cómo funcionarán en el proyecto completo y les permitirá tener un mejor abordaje para futuras tareas. Hay que tener en cuenta que, como este ítem va a ser una presentación previa de lo que van a trabajar en el segundo sprint, el PO puede dar el OK o determinar cuál es el mejor camino para que tomen. Esto les va a permitir adelantar trabajo de la segunda semana, ya que no se va a tener que esperar hasta la segunda demo para verificar si la arquitectura cumple con los requisitos del PO.
-
-
+-METADATOS:
 Finalmente, como en Data es muy importante trabajar con datos de calidad, deberán incluir en su informe un análisis sobre los datos con los que van a trabajar (metadatos), detallandolos lo más posible: fuentes y confiabilidad de las mismas, qué representa cada columna de cada dataset, tipos de datos, método de adquisición, fecha de adquisición y ultima actualización, etc.
-
-Hitos
-4 KPI’s
-Documentar alcance del proyecto
-EDA de los datos
-Repositorio en Github
-Implementación stack tecnológico
-Metodología de trabajo 
     
-    Equipo de trabajo - Roles y responsabilidades
-    Cronograma general - Gantt SANDRA HACER BIEN DETALLADO
-    Análisis preliminar de calidad de datos?????
-
-
-
-Entregables :       
--Documentación:
-1) Stack elegido y fundamentación
-2) Flujo de trabajo: diagrama de arquitectura de datos
+-DOCUMENTACION:
+Stack elegido : diagrama de arquitectura de datos si llegamos
 
