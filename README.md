@@ -131,6 +131,19 @@ Al seleccionar estas herramientas, se busca una integración eficiente y un fluj
 <img src="https://github.com/samuelchacon00/PF_PT05_G8/blob/main/Diagrama_de_Arquitectura.jpg">
 
 
+## **ETL automatizado**
+
+Google Cloud Platform es nuestra plataforma elegida para ejecutar el proceso de ETL. Elejimos esta plataforma, por su escalabilidad, confiabilidad y facilidad de uso. Nos proporciona un entorno seguro y robusto para gestionar nuestros datos en la nube.
+
+Comenzamos almacenando nuestros datos en Google Cloud Storage, el cual nos permite almacenar grandes volúmenes de datos de manera segura y económica.
+Para automatizar nuestro proceso de ETL, utilizamos Cloud Functions, que nos permite ejecutar código en respuesta a eventos en la nube. Esto significa que podemos configurar fácilmente nuestra carga incremental para que se ejecute automáticamente en intervalos regulares o en respuesta a cambios en nuestros contenedores de datos (ya sea un data warehouse o data lake).
+El proceso de ETL automatizado con carga incremental comienza extrayendo los datos de nuestras fuentes originales. Luego, aplicamos transformaciones necesarias para preparar los datos para su carga. En lugar de cargar todos los datos nuevamente, realizamos una carga incremental, lo que significa que solo cargamos los datos que han cambiado desde la última ejecución del proceso. 
+
+Y todo esto se hace de manera automatizada utilizando Cloud Functions, lo que garantiza que nuestro proceso funcione de manera eficiente y sin problemas.
+
+Al adoptar este enfoque, hemos experimentado una serie de beneficios significativos como una mayor eficiencia, escalabilidad y fiabilidad.
+
+
 ## KPIs
 
 1. **Eficiencia de la Flota Eléctrica:**
@@ -139,16 +152,7 @@ Al seleccionar estas herramientas, se busca una integración eficiente y un fluj
 
 - **Fórmula:** (Kilómetros recorridos por vehículo eléctrico / Consumo energético total de vehículos eléctricos) / (Kilómetros recorridos por vehículo convencional / Consumo de combustible total de vehículos convencionales)
 
-- **Meta:** Alcanzar una eficiencia de un 15% en un año, en la flota de vehículos eléctricos, en comparación con la flota de vehículos 
-(Eficiencia economica, lo que gastan $$ por kilometro??)
-(MATI Y SAMUEL Y SANDRA)
-
-(
--**Bibliografía:**
-
-https://www.nyc.gov/html/dot/html/motorist/electric-vehicles.shtml#/find/nearest
-
-https://www.nyc.gov/html/dot/downloads/pdf/curbside-level-2-charging-pilot-faq.pdf)
+- **Meta:** Alcanzar una eficiencia de un 15% en un año, en la flota de vehículos eléctricos, en comparación con la flota de vehículos tradicionales. 
 
 
 2. **Retorno de Inversión de los vehículos:**
@@ -159,10 +163,8 @@ https://www.nyc.gov/html/dot/downloads/pdf/curbside-level-2-charging-pilot-faq.p
 
 - **Meta:** Lograr una eficiencia mayor al 10%. Con el ahorro anual de combustible se debe obtener el 10% del valor del vehículo nuevo.
 
-(RECORDAR QUE POR REGLAMENTANCION EL VALOR DE VIDA UTIL DE UN TAXI ES 5 AÑOS)
-(MATI Y SAMUEL )
 
-3. **Reducción Porcentual de Emisiones de CO2:**
+3. **Reducción Porcentual de Emisiones de CO2**
 
 - **Objetivo:** Calcular la reducción potencial de CO2 al implementar vehículos eléctricos.
 
@@ -170,17 +172,18 @@ https://www.nyc.gov/html/dot/downloads/pdf/curbside-level-2-charging-pilot-faq.p
 
 - **Meta:** Alcanzar una reducción del 30% anual en las emisiones de CO2 por kilómetro con la introducción de vehículos eléctricos, en comparación con los vehículos convencionales.
 
-4) A definir
+
+4. **Reducción Porcentual de Contaminación Sonora**
+
+- **Objetivo:** Calcular la reducción potencial de contaminación sonora al implementar vehículos eléctricos.
+
+- **Fórmula:** (Contaminación sonora de Vehículos del último año / Contaminación Sonora de Motor del último año)  * 100
+
+- **Meta:** Alcanzar una reducción del 67% de contaminación sonora proveniente de automóviles, incorporando autos eléctricos, en comparación con los vehículos convencionales. Medible en el termino de 1 año.
+
+
+## **Diseño del Modelo ER**
 
 
 
-
-
-PENDIENTE: de esta etapa nos quedaria mejorar
-
--METADATOS:
-Finalmente, como en Data es muy importante trabajar con datos de calidad, deberán incluir en su informe un análisis sobre los datos con los que van a trabajar (metadatos), detallandolos lo más posible: fuentes y confiabilidad de las mismas, qué representa cada columna de cada dataset, tipos de datos, método de adquisición, fecha de adquisición y ultima actualización, etc.
-    
--DOCUMENTACION:
-Stack elegido : diagrama de arquitectura de datos si llegamos
 
