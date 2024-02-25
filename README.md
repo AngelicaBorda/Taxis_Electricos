@@ -128,7 +128,7 @@ Al seleccionar estas herramientas, se busca una integración eficiente y un fluj
 
 ## **Diagrama de Arquitectura**
 
-<img src="">
+<img src="https://github.com/samuelchacon00/PF_PT05_G8/blob/main/Diagrama_de_Arquitectura.jpg">
 
 
 ## KPIs
