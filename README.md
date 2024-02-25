@@ -1,4 +1,4 @@
-# **Análisis de Datos para Empresa de Transporte de Pasajeros**
+# **Análisis de Datos para Empresa de Taxis en ciudad de NY**
 
 
 ## **Contexto**
@@ -124,6 +124,11 @@ Simplicidad.
 Facilidad para el trabajo colaborativo del equipo.
 
 Al seleccionar estas herramientas, se busca una integración eficiente y un flujo de trabajo coherente desde la recopilación de datos hasta el despliegue del modelo, aprovechando las fortalezas individuales de cada herramienta en su respectiva etapa del proceso. Además, se ha considerado la popularidad, documentación y soporte de la comunidad para garantizar la eficacia y la resolución eficiente de problemas durante el desarrollo del proyecto.
+
+
+## **Diagrama de Arquitectura**
+
+<img src="">
 
 
 ## KPIs
