@@ -146,7 +146,7 @@ Al adoptar este enfoque, hemos experimentado una serie de beneficios significati
 
 ## KPIs
 
-1. **Eficiencia de la Flota Eléctrica:**
+1. ### **Eficiencia de la Flota Eléctrica:**
 
 - **Objetivo:** Evaluar la eficiencia de los vehículos eléctricos en comparación con los vehículos convencionales.
 
@@ -155,7 +155,7 @@ Al adoptar este enfoque, hemos experimentado una serie de beneficios significati
 - **Meta:** Alcanzar una eficiencia de un 15% en un año, en la flota de vehículos eléctricos, en comparación con la flota de vehículos tradicionales. 
 
 
-2. **Retorno de Inversión de los vehículos:**
+2. ### **Retorno de Inversión de los vehículos:**
 
 - **Objetivo:** Evaluar en el término de vida útil de un taxi en Nueva York, el porcentaje de recupero de la inversión teniendo en cuenta el ahorro anual en combustible.
 
@@ -164,7 +164,7 @@ Al adoptar este enfoque, hemos experimentado una serie de beneficios significati
 - **Meta:** Lograr una eficiencia mayor al 10%. Con el ahorro anual de combustible se debe obtener el 10% del valor del vehículo nuevo.
 
 
-3. **Reducción Porcentual de Emisiones de CO2**
+3. ### **Reducción Porcentual de Emisiones de CO2**
 
 - **Objetivo:** Calcular la reducción potencial de CO2 al implementar vehículos eléctricos.
 
@@ -173,7 +173,7 @@ Al adoptar este enfoque, hemos experimentado una serie de beneficios significati
 - **Meta:** Alcanzar una reducción del 30% anual en las emisiones de CO2 por kilómetro con la introducción de vehículos eléctricos, en comparación con los vehículos convencionales.
 
 
-4. **Reducción Porcentual de Contaminación Sonora**
+4. ### **Reducción Porcentual de Contaminación Sonora**
 
 - **Objetivo:** Calcular la reducción potencial de contaminación sonora al implementar vehículos eléctricos.
 
