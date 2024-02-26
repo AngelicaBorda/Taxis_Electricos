@@ -133,7 +133,7 @@ Al seleccionar estas herramientas, se busca una integración eficiente y un fluj
 
 ## **ETL automatizado**
 
-Google Cloud Platform es nuestra plataforma elegida para ejecutar el proceso de ETL. Elejimos esta plataforma, por su escalabilidad, confiabilidad y facilidad de uso. Nos proporciona un entorno seguro y robusto para gestionar nuestros datos en la nube.
+Google Cloud Platform es nuestra plataforma elegida para ejecutar el proceso de ETL. Elegimos esta plataforma, por su escalabilidad, confiabilidad y facilidad de uso. Nos proporciona un entorno seguro y robusto para gestionar nuestros datos en la nube.
 
 Comenzamos almacenando nuestros datos en Google Cloud Storage, el cual nos permite almacenar grandes volúmenes de datos de manera segura y económica.
 Para automatizar nuestro proceso de ETL, utilizamos Cloud Functions, que nos permite ejecutar código en respuesta a eventos en la nube. Esto significa que podemos configurar fácilmente nuestra carga incremental para que se ejecute automáticamente en intervalos regulares o en respuesta a cambios en nuestros contenedores de datos (ya sea un data warehouse o data lake).
