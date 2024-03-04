@@ -30,17 +30,17 @@ Link de diagrama de Gantt:  [Link](https://docs.google.com/spreadsheets/d/1AJHGS
 - **Base de Datos Relacional: Google Cloud SQL**
 **Fundamentación:**
 
-- Estabilidad y confiabilidad.
-- Modelado relacional para manejar relaciones entre datos.
-- Amplia comunidad y soporte.
-- Escalabilidad para proyectos de tamaño medio.
+<p>Estabilidad y confiabilidad.</p>
+<p>Modelado relacional para manejar relaciones entre datos.</p>
+<p>Amplia comunidad y soporte.</p>
+<p>Escalabilidad para proyectos de tamaño medio.</p>
 
 - **Almacenamiento en la Nube: Google Cloud Storage**
 **Fundamentación:**
-- Escalabilidad y flexibilidad en la nube.
-- Gestión de base de datos automatizada.
-- Alta disponibilidad y redundancia.
-- Facilidad de acceso desde diferentes ubicaciones.
+<p>Escalabilidad y flexibilidad en la nube.</p>
+<p>Gestión de base de datos automatizada.</p>
+<p>Alta disponibilidad y redundancia.</p>
+<p>Facilidad de acceso desde diferentes ubicaciones.</p>
 
 - **ETL Automatizado: Google Cloud Function**
 **Fundamentación:**
