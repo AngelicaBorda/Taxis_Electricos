@@ -214,14 +214,14 @@ Queja por:
 
 **Desarrollo del Modelo:** 
 
-- **Preprocesamiento de texto y vectorización:**
+- #### **Preprocesamiento de texto y vectorización:**
 - Utiliza el vectorizador TF-IDF para convertir las reseñas de texto en una representación numérica.
 - Elimina palabras comunes en inglés (stop words) para mejorar la calidad de las características.
-- **División de datos:**
+- #### **División de datos:**
 - Divide el conjunto de datos en conjuntos de entrenamiento y prueba (80% entrenamiento, 20% prueba).
 - Entrenamiento del modelo de árbol de decisión:
 - Crea un clasificador de árbol de decisión utilizando los datos de entrenamiento.
-- **Predicciones y evaluación del modelo:**
+- #### **Predicciones y evaluación del modelo:**
 - Realiza predicciones sobre el conjunto de prueba.
 - Evalúa el rendimiento del modelo utilizando métricas como precisión, recall y F1-score.
 
