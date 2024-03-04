@@ -44,89 +44,89 @@ Link de diagrama de Gantt:  [Link](https://docs.google.com/spreadsheets/d/1AJHGS
 
 - **ETL Automatizado: Google Cloud Function**
 **Fundamentación:**
-- Escalabilidad Automatica.
-- Event-Driven, se puede configurar para que se active en respuesta a eventos específicos.
-- Costo eficiente.
-- Integración con Otros Servicios de GCP.
+<p>Escalabilidad Automatica.</p>
+<p>Event-Driven, se puede configurar para que se active en respuesta a eventos específicos.</p>
+<p>Costo eficiente.</p>
+<p>Integración con Otros Servicios de GCP.</p>
 
 
 2. ## **Extracción y Depuración de Datos:**
 
 - **Pandas:**
 **Fundamentación:**
-- Potente biblioteca de Python para manipulación y análisis de datos.
-- Funciones integradas para limpieza y transformación de datos.
-- Compatibilidad con diversas fuentes de datos.
+<p>Potente biblioteca de Python para manipulación y análisis de datos.</p>
+<p>Funciones integradas para limpieza y transformación de datos.</p>
+<p>Compatibilidad con diversas fuentes de datos.</p>
 
 - **Beautiful Soup: para web scraping**
 **Fundamentación:**
-- Fácil implementación de hacking ético.
+<p>Fácil implementación de hacking ético.</p>
 
 3. **Análisis Exploratorio de Datos (EDA):**
 
 - **Matplotlib y Seaborn:**
 **Fundamentación:**
-- Creación de gráficos de alta calidad y visualmente atractivos.
-- Integración con Pandas para análisis de datos eficiente.
-- Amplia adopción en la comunidad de ciencia de datos.
+<p>Creación de gráficos de alta calidad y visualmente atractivos.</p>
+<p>Integración con Pandas para análisis de datos eficiente.</p>
+<p>Amplia adopción en la comunidad de ciencia de datos.</p>
 
 - **Jupyter Notebooks:**
 **Fundamentación:**
-- Interactividad y documentación en un solo entorno.
-- Facilita la comunicación de resultados y análisis.
-- Compatibilidad con diversas bibliotecas y herramientas.
+<p>Interactividad y documentación en un solo entorno.</p>
+<p>Facilita la comunicación de resultados y análisis.</p>
+<p>Compatibilidad con diversas bibliotecas y herramientas.</p>
 
 4. **Machine Learning:**
 
 - **Scikit-Learn:**
 **Fundamentación:**
-- Amplia gama de algoritmos de aprendizaje automático.
-- Documentación detallada y ejemplos de uso.
-- Fácil integración con otras bibliotecas de Python.
+<p>Amplia gama de algoritmos de aprendizaje automático.</p>
+<p>Documentación detallada y ejemplos de uso.</p>
+<p>Fácil integración con otras bibliotecas de Python.</p>
 
 - **DecisionTreeClassifier:**
 **Fundamentación:**
-- DecisionTreeClassifier es un algoritmo de clasificación y regresión de aprendizaje supervisado.
-- Es ideal por su precisión en casos de small data.
+<p>DecisionTreeClassifier es un algoritmo de clasificación y regresión de aprendizaje supervisado.</p>
+<p>Es ideal por su precisión en casos de small data.</p>
 
 
 5. **Despliegue del Modelo:**
 
 - **Streamlit:**
 **Fundamentación:**
-- Simplicidad y rapidez, se puede aplicar sin conocimientos de HTML.
-- Excelente visualización e interfaz amigable con el usuario.
-- Fácil integración con modelos de machine learning.
-- Versatilidad, se puede integrar gráficos, mapas, imágenes, videos, etc.
+<p>Simplicidad y rapidez, se puede aplicar sin conocimientos de HTML.</p>
+<p>Excelente visualización e interfaz amigable con el usuario.</p>
+<p>Fácil integración con modelos de machine learning.</p>
+<p>Versatilidad, se puede integrar gráficos, mapas, imágenes, videos, etc.</p>
 
 
 6. **Herramientas de Colaboración:**
 
 - **GitHub:**
 **Fundamentación:**
-- Control de versiones distribuido.
-- Seguimiento de cambios y colaboración efectiva.
+<p>Control de versiones distribuido.</p>
+<p>Seguimiento de cambios y colaboración efectiva.</p>
 
 - **Discord:**
 **Fundamentación:**
-- Comunicación en vivo.
-- Facilita la colaboración y discusiones del equipo.
-- Podemos compartirnos pantalla para mejorar la colaboración y toma de decisiones.
+<p>Comunicación en vivo.</p>
+<p>Facilita la colaboración y discusiones del equipo.</p>
+<p>Podemos compartirnos pantalla para mejorar la colaboración y toma de decisiones.</p>
 
 7. **Herramientas de Visualización:**
 
 - **Power BI:**
 **Fundamentación:**
-- Creación de informes y paneles interactivos.
-- Conexión fácil con diversas fuentes de datos.
-- Amplias capacidades de visualización y análisis.
+<p>Creación de informes y paneles interactivos.</p>
+<p>Conexión fácil con diversas fuentes de datos.</p>
+<p>Amplias capacidades de visualización y análisis.</p>
 
 - **Excel:**
 **Fundamentación:**
-- Simplicidad.
-- Facilidad para el trabajo colaborativo del equipo.
+<p>Simplicidad.</p>
+<p>Facilidad para el trabajo colaborativo del equipo.</p>
 
-Al seleccionar estas herramientas, se busca una integración eficiente y un flujo de trabajo coherente desde la recopilación de datos hasta el despliegue del modelo, aprovechando las fortalezas individuales de cada herramienta en su respectiva etapa del proceso. Además, se ha considerado la popularidad, documentación y soporte de la comunidad para garantizar la eficacia y la resolución eficiente de problemas durante el desarrollo del proyecto.
+<p>Al seleccionar estas herramientas, se busca una integración eficiente y un flujo de trabajo coherente desde la recopilación de datos hasta el despliegue del modelo, aprovechando las fortalezas individuales de cada herramienta en su respectiva etapa del proceso. Además, se ha considerado la popularidad, documentación y soporte de la comunidad para garantizar la eficacia y la resolución eficiente de problemas durante el desarrollo del proyecto.</p>
 
 
 ## **Diagrama de Arquitectura**
