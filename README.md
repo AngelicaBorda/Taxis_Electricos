@@ -27,7 +27,7 @@ Link de diagrama de Gantt:  [Link](https://docs.google.com/spreadsheets/d/1AJHGS
 
 1. ## **Almacenamiento de Datos (Data Warehouse):**
 
-- **Base de Datos Relacional: Google Cloud SQL**
+### - **Base de Datos Relacional: Google Cloud SQL**
 **Fundamentación:**
 
 <p>Estabilidad y confiabilidad.</p>
@@ -35,14 +35,14 @@ Link de diagrama de Gantt:  [Link](https://docs.google.com/spreadsheets/d/1AJHGS
 <p>Amplia comunidad y soporte.</p>
 <p>Escalabilidad para proyectos de tamaño medio.</p>
 
-- **Almacenamiento en la Nube: Google Cloud Storage**
+### - **Almacenamiento en la Nube: Google Cloud Storage**
 **Fundamentación:**
 <p>Escalabilidad y flexibilidad en la nube.</p>
 <p>Gestión de base de datos automatizada.</p>
 <p>Alta disponibilidad y redundancia.</p>
 <p>Facilidad de acceso desde diferentes ubicaciones.</p>
 
-- **ETL Automatizado: Google Cloud Function**
+### - **ETL Automatizado: Google Cloud Function**
 **Fundamentación:**
 <p>Escalabilidad Automatica.</p>
 <p>Event-Driven, se puede configurar para que se active en respuesta a eventos específicos.</p>
@@ -52,45 +52,45 @@ Link de diagrama de Gantt:  [Link](https://docs.google.com/spreadsheets/d/1AJHGS
 
 2. ## **Extracción y Depuración de Datos:**
 
-- **Pandas:**
+### - **Pandas:**
 **Fundamentación:**
 <p>Potente biblioteca de Python para manipulación y análisis de datos.</p>
 <p>Funciones integradas para limpieza y transformación de datos.</p>
 <p>Compatibilidad con diversas fuentes de datos.</p>
 
-- **Beautiful Soup: para web scraping**
+### - **Beautiful Soup: para web scraping**
 **Fundamentación:**
 <p>Fácil implementación de hacking ético.</p>
 
-3. **Análisis Exploratorio de Datos (EDA):**
+3. ## **Análisis Exploratorio de Datos (EDA):**
 
-- **Matplotlib y Seaborn:**
+### - **Matplotlib y Seaborn:**
 **Fundamentación:**
 <p>Creación de gráficos de alta calidad y visualmente atractivos.</p>
 <p>Integración con Pandas para análisis de datos eficiente.</p>
 <p>Amplia adopción en la comunidad de ciencia de datos.</p>
 
-- **Jupyter Notebooks:**
+### - **Jupyter Notebooks:**
 **Fundamentación:**
 <p>Interactividad y documentación en un solo entorno.</p>
 <p>Facilita la comunicación de resultados y análisis.</p>
 <p>Compatibilidad con diversas bibliotecas y herramientas.</p>
 
-4. **Machine Learning:**
+4. ## **Machine Learning:**
 
-- **Scikit-Learn:**
+### - **Scikit-Learn:**
 **Fundamentación:**
 <p>Amplia gama de algoritmos de aprendizaje automático.</p>
 <p>Documentación detallada y ejemplos de uso.</p>
 <p>Fácil integración con otras bibliotecas de Python.</p>
 
-- **DecisionTreeClassifier:**
+### - **DecisionTreeClassifier:**
 **Fundamentación:**
 <p>DecisionTreeClassifier es un algoritmo de clasificación y regresión de aprendizaje supervisado.</p>
 <p>Es ideal por su precisión en casos de small data.</p>
 
 
-5. **Despliegue del Modelo:**
+5. ## **Despliegue del Modelo:**
 
 - **Streamlit:**
 **Fundamentación:**
@@ -100,28 +100,28 @@ Link de diagrama de Gantt:  [Link](https://docs.google.com/spreadsheets/d/1AJHGS
 <p>Versatilidad, se puede integrar gráficos, mapas, imágenes, videos, etc.</p>
 
 
-6. **Herramientas de Colaboración:**
+6. ## **Herramientas de Colaboración:**
 
-- **GitHub:**
+### - **GitHub:**
 **Fundamentación:**
 <p>Control de versiones distribuido.</p>
 <p>Seguimiento de cambios y colaboración efectiva.</p>
 
-- **Discord:**
+### - **Discord:**
 **Fundamentación:**
 <p>Comunicación en vivo.</p>
 <p>Facilita la colaboración y discusiones del equipo.</p>
 <p>Podemos compartirnos pantalla para mejorar la colaboración y toma de decisiones.</p>
 
-7. **Herramientas de Visualización:**
+7. ## **Herramientas de Visualización:**
 
-- **Power BI:**
+### - **Power BI:**
 **Fundamentación:**
 <p>Creación de informes y paneles interactivos.</p>
 <p>Conexión fácil con diversas fuentes de datos.</p>
 <p>Amplias capacidades de visualización y análisis.</p>
 
-- **Excel:**
+### - **Excel:**
 **Fundamentación:**
 <p>Simplicidad.</p>
 <p>Facilidad para el trabajo colaborativo del equipo.</p>
