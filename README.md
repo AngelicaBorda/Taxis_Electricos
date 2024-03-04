@@ -10,7 +10,7 @@ Acompañar a la empresa en el proceso de toma de decisiones. Para ello, utilizar
 
 ## **Equipo y Roles**
 
-| Miembro | Rol 1 | Rol 2 |
+| Miembro | Rol 1° | Rol 2° |
 | ------ | ------ | ------ |
 | Matías Touzon | Data Engineer | Data Scientist |
 | Sandra Meneses | Data Analyst | Data Scientist |
@@ -27,101 +27,104 @@ Link de diagrama de Gantt:  [Link](https://docs.google.com/spreadsheets/d/1AJHGS
 
 1. ## **Almacenamiento de Datos (Data Warehouse):**
 
-- **Base de Datos Relacional (PostgreSQL o MySQL):**
+- **Base de Datos Relacional: Google Cloud SQL**
 **Fundamentación:**
-Estabilidad y confiabilidad.
-Modelado relacional para manejar relaciones entre datos.
-Amplia comunidad y soporte.
-Escalabilidad para proyectos de tamaño medio.
 
-- **Almacenamiento en la Nube (Amazon RDS, Google Cloud SQL, o Azure SQL Database):**
+- Estabilidad y confiabilidad.
+- Modelado relacional para manejar relaciones entre datos.
+- Amplia comunidad y soporte.
+- Escalabilidad para proyectos de tamaño medio.
+
+- **Almacenamiento en la Nube: Google Cloud Storage**
 **Fundamentación:**
-Escalabilidad y flexibilidad en la nube.
-Gestión de base de datos automatizada.
-Alta disponibilidad y redundancia.
-Facilidad de acceso desde diferentes ubicaciones.
+- Escalabilidad y flexibilidad en la nube.
+- Gestión de base de datos automatizada.
+- Alta disponibilidad y redundancia.
+- Facilidad de acceso desde diferentes ubicaciones.
+
+- **ETL Automatizado: Google Cloud Function**
+**Fundamentación:**
+- Escalabilidad Automatica.
+- Event-Driven, se puede configurar para que se active en respuesta a eventos específicos.
+- Costo eficiente.
+- Integración con Otros Servicios de GCP.
+
 
 2. ## **Extracción y Depuración de Datos:**
 
 - **Pandas:**
 **Fundamentación:**
-Potente biblioteca de Python para manipulación y análisis de datos.
-Funciones integradas para limpieza y transformación de datos.
-Compatibilidad con diversas fuentes de datos.
+- Potente biblioteca de Python para manipulación y análisis de datos.
+- Funciones integradas para limpieza y transformación de datos.
+- Compatibilidad con diversas fuentes de datos.
 
-- **ETL (Apache NiFi o Apache Airflow):**
+- **Beautiful Soup: para web scraping**
 **Fundamentación:**
-Automatización de flujos de trabajo ETL.
-Programación y ejecución de tareas de extracción, transformación y carga.
-Monitoreo y gestión de dependencias entre tareas.
+- Fácil implementación de hacking ético.
 
 3. **Análisis Exploratorio de Datos (EDA):**
 
 - **Matplotlib y Seaborn:**
 **Fundamentación:**
-Creación de gráficos de alta calidad y visualmente atractivos.
-Integración con Pandas para análisis de datos eficiente.
-Amplia adopción en la comunidad de ciencia de datos.
+- Creación de gráficos de alta calidad y visualmente atractivos.
+- Integración con Pandas para análisis de datos eficiente.
+- Amplia adopción en la comunidad de ciencia de datos.
 
 - **Jupyter Notebooks:**
 **Fundamentación:**
-Interactividad y documentación en un solo entorno.
-Facilita la comunicación de resultados y análisis.
-Compatibilidad con diversas bibliotecas y herramientas.
+- Interactividad y documentación en un solo entorno.
+- Facilita la comunicación de resultados y análisis.
+- Compatibilidad con diversas bibliotecas y herramientas.
 
 4. **Machine Learning:**
 
 - **Scikit-Learn:**
 **Fundamentación:**
-Amplia gama de algoritmos de aprendizaje automático.
-Documentación detallada y ejemplos de uso.
-Fácil integración con otras bibliotecas de Python.
+- Amplia gama de algoritmos de aprendizaje automático.
+- Documentación detallada y ejemplos de uso.
+- Fácil integración con otras bibliotecas de Python.
 
-- **TensorFlow o PyTorch:**
+- **DecisionTreeClassifier:**
 **Fundamentación:**
-Potentes frameworks para desarrollo de modelos de aprendizaje profundo.
-Flexibilidad y escalabilidad.
-Amplia comunidad y recursos de aprendizaje.
+- DecisionTreeClassifier es un algoritmo de clasificación y regresión de aprendizaje supervisado.
+- Es ideal por su precisión en casos de small data.
+
 
 5. **Despliegue del Modelo:**
 
-- **FastAPI:**
+- **Streamlit:**
 **Fundamentación:**
-Rápido desarrollo de APIs web con Python.
-Documentación automática y fácil integración con modelos de machine learning.
-Soporte para operaciones asíncronas.
+- Simplicidad y rapidez, se puede aplicar sin conocimientos de HTML.
+- Excelente visualización e interfaz amigable con el usuario.
+- Fácil integración con modelos de machine learning.
+- Versatilidad, se puede integrar gráficos, mapas, imágenes, videos, etc.
 
-- **Docker:**
-**Fundamentación:**
-Empaquetamiento de aplicaciones y dependencias en contenedores.
-Consistencia en entornos de desarrollo y producción.
-Facilita el despliegue y escalabilidad.
 
 6. **Herramientas de Colaboración:**
 
 - **GitHub:**
 **Fundamentación:**
-Control de versiones distribuido.
-Seguimiento de cambios y colaboración efectiva.
+- Control de versiones distribuido.
+- Seguimiento de cambios y colaboración efectiva.
 
 - **Discord:**
 **Fundamentación:**
-Comunicación en vivo.
-Facilita la colaboración y discusiones del equipo.
-Podemos compartirnos pantalla para mejorar la colaboración y toma de decisiones.
+- Comunicación en vivo.
+- Facilita la colaboración y discusiones del equipo.
+- Podemos compartirnos pantalla para mejorar la colaboración y toma de decisiones.
 
 7. **Herramientas de Visualización:**
 
 - **Power BI:**
 **Fundamentación:**
-Creación de informes y paneles interactivos.
-Conexión fácil con diversas fuentes de datos.
-Amplias capacidades de visualización y análisis.
+- Creación de informes y paneles interactivos.
+- Conexión fácil con diversas fuentes de datos.
+- Amplias capacidades de visualización y análisis.
 
 - **Excel:**
 **Fundamentación:**
-Simplicidad.
-Facilidad para el trabajo colaborativo del equipo.
+- Simplicidad.
+- Facilidad para el trabajo colaborativo del equipo.
 
 Al seleccionar estas herramientas, se busca una integración eficiente y un flujo de trabajo coherente desde la recopilación de datos hasta el despliegue del modelo, aprovechando las fortalezas individuales de cada herramienta en su respectiva etapa del proceso. Además, se ha considerado la popularidad, documentación y soporte de la comunidad para garantizar la eficacia y la resolución eficiente de problemas durante el desarrollo del proyecto.
 
@@ -177,7 +180,7 @@ Al adoptar este enfoque, hemos experimentado una serie de beneficios significati
 
 - **Objetivo:** Calcular la reducción potencial de contaminación sonora al implementar vehículos eléctricos.
 
-- **Fórmula:** (Contaminación sonora de Vehículos del último año / Contaminación Sonora de Motor del último año)  * 100
+- **Fórmula:** (Contaminacion sonora proveniente de motor del último año/ Contaminación sonora total de autos del último año)  * 100
 
 - **Meta:** Alcanzar una reducción del 67% de contaminación sonora proveniente de automóviles, incorporando autos eléctricos, en comparación con los vehículos convencionales. Medible en el termino de 1 año.
 
