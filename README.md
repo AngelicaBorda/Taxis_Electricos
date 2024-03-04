@@ -27,7 +27,7 @@ Link de diagrama de Gantt:  [Link](https://docs.google.com/spreadsheets/d/1AJHGS
 
 1. ## **Almacenamiento de Datos (Data Warehouse):**
 
-### - **Base de Datos Relacional: Google Cloud SQL**
+- ### **Base de Datos Relacional: Google Cloud SQL**
 **Fundamentación:**
 
 <p>Estabilidad y confiabilidad.</p>
