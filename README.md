@@ -1,4 +1,4 @@
-# **Análisis de Datos para Empresa de Taxis en ciudad de NY**
+# **Análisis de Mercado y Contaminación en NY para servicio de Taxi**
 
 
 ## **Contexto**
@@ -186,6 +186,51 @@ Al adoptar este enfoque, hemos experimentado una serie de beneficios significati
 
 
 ## **Diseño del Modelo ER**
+
+
+## **Modelo de ML**
+
+**Introducción:** con los datos analizados durante la investigación, contamos con un panorama sobre las ventajas económicas y sociales -cuidado del medio ambiente- de incorporar una flota de taxis electricos. Para completar el análisis, buscamos reseñas de opiniones de usuarios de otras empresas de taxis, en la ciudad de NY. Esto con el objetivo de brindarles un panorama respecto a la opinion de los usuarios, y también con la idea de entrenar un modelo de ML, que les permita entender mejor la opinión de sus futuros clientes, respecto de su servicio.
+
+**Fundamentación:** el modelo elegido fue DecisionTreeClassifier, algoritmo de clasificación y regresión de aprendizaje supervisado.
+Este algoritmo es el ideal por su precisión, en casos de "small data" -como el que nos ocupa-. 
+
+**Features:**  
+<p>En primer lugar leimos varios registros para tener un panorama de la información. En base a los datos obtenios elaboramos etiquetas, para clasificar y dividir en 5 clases a las reseñas.</p> 
+<p>Recomendaciones por el buen servicio del conductor (1), o por el buen estado del vehículo (2), o Quejas por el mal servicio del conductor (3) o por el estado del vehículo (4) y otros (5), para los casos en que no se ajusten a ninguno de los anteriores.</p>
+
+<p>Esta clasificacion tiene por fin saber cuales son los puntos fuertes del servicio brindado y cuales hay que mejorar. Con la posibilidad de que a medida que se vaya incrementando la base de datos, se puede optimizar el modelo, haciendo subdivisiones, de manera de tener un panorama más especifico aún. Ejemplo:</p>
+
+Recomendación por:
+- el conductor
+- aplicación amigable
+- economico
+Queja por:
+- automovil sucio
+- automovil con desperfectos
+- automovil incomodo
+- demora
+- conductor imprudente
+
+**Desarrollo del Modelo:** 
+
+- **Preprocesamiento de texto y vectorización:**
+- Utiliza el vectorizador TF-IDF para convertir las reseñas de texto en una representación numérica.
+- Elimina palabras comunes en inglés (stop words) para mejorar la calidad de las características.
+- **División de datos:**
+- Divide el conjunto de datos en conjuntos de entrenamiento y prueba (80% entrenamiento, 20% prueba).
+- Entrenamiento del modelo de árbol de decisión:
+- Crea un clasificador de árbol de decisión utilizando los datos de entrenamiento.
+- **Predicciones y evaluación del modelo:**
+- Realiza predicciones sobre el conjunto de prueba.
+- Evalúa el rendimiento del modelo utilizando métricas como precisión, recall y F1-score.
+
+**Deploy: Streamlit:** 
+<p>Elegimos esta herramienta, porque brinda una interfaz de usuario amigable, para consultar el modelo</p>
+
+
+
+
 
 
 
