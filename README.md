@@ -6,7 +6,8 @@
 Una empresa de servicios de transporte de pasajeros, especializada en micros de media y larga distancia, busca expandir sus operaciones al sector de transporte de pasajeros con automóviles. Con el objetivo de avanzar hacia un futuro más sostenible y adaptarse a las tendencias del mercado, la empresa pretende evaluar la relación entre los medios de transporte particulares y la calidad del aire, así como la contaminación sonora. El análisis preliminar se centrará en el movimiento de taxis en la ciudad de Nueva York como referencia para la posible implementación de vehículos eléctricos en la flota.
 
 ## **Objetivo**
-Acompañar a la empresa en el proceso de toma de decisiones. Para ello, utilizaremos datos de alta calidad, incluyendo información sobre viajes compartidos, calidad del aire, contaminación sonora y xxxxxxxxxxxxxxxxx. El análisis de estos datos permitirá al equipo tomar decisiones bien fundamentadas en cuanto a la posibilidad de incorporar vehículos eléctricos a la flota, ya sea en su totalidad o parcialmente. El objetivo final es proporcionar a la empresa información clave que respalde la toma de decisiones estratégicas en la expansión hacia el transporte de pasajeros con automóviles. (VERBOS DE ACCION).
+<p>Acompañar a la empresa en el proceso de toma de decisiones. Para ello, utilizaremos datos de alta calidad, incluyendo información sobre viajes, calidad del aire, contaminación sonora, eficiencia de los vehículos electricos, comparación con los convenionales, análisis de la competencia, opinión y caracterización de los usuarios, etc. </p>
+<p> El análisis de estos datos permitirá al equipo tomar decisiones bien fundamentadas en cuanto a la posibilidad de incorporar vehículos eléctricos a la flota, ya sea en su totalidad o parcialmente. El objetivo final es proporcionar a la empresa información clave que respalde la toma de decisiones estratégicas en la expansión hacia el transporte de pasajeros con automóviles. </p>
 
 ## **Equipo y Roles**
 
@@ -131,7 +132,7 @@ Link de diagrama de Gantt:  [Link](https://docs.google.com/spreadsheets/d/1AJHGS
 
 ## **Diagrama de Arquitectura**
 
-<img src="https://github.com/samuelchacon00/PF_PT05_G8/blob/main/Diagrama_de_Arquitectura.jpg">
+<img src="https://github.com/samuelchacon00/PF_PT05_G8/blob/main/diag-arq.png">
 
 
 ## **ETL automatizado**
@@ -196,10 +197,16 @@ Al adoptar este enfoque, hemos experimentado una serie de beneficios significati
 Este algoritmo es el ideal por su precisión, en casos de "small data" -como el que nos ocupa-. 
 
 **Features:**  
-<p>En primer lugar leimos varios registros para tener un panorama de la información. En base a los datos obtenios elaboramos etiquetas, para clasificar y dividir en 5 clases a las reseñas.</p> 
-<p>Recomendaciones por el buen servicio del conductor (1), o por el buen estado del vehículo (2), o Quejas por el mal servicio del conductor (3) o por el estado del vehículo (4) y otros (5), para los casos en que no se ajusten a ninguno de los anteriores.</p>
+<p>En primer lugar leimos varios registros para tener un panorama de la información. En base a los datos obtenios elaboramos etiquetas, para clasificar y dividir en 4 clases a las reseñas:</p>
 
-<p>Esta clasificacion tiene por fin saber cuales son los puntos fuertes del servicio brindado y cuales hay que mejorar. Con la posibilidad de que a medida que se vaya incrementando la base de datos, se puede optimizar el modelo, haciendo subdivisiones, de manera de tener un panorama más especifico aún. Ejemplo:</p>
+- Recomendación Generales
+- Recomendación por el buen servicio del conductor 
+- Recomendación por el buen estado del vehículo 
+- Quejas por el mal servicio del conductor 
+
+<p> Cabe aclarar que esta es una primer etapa del desarrollo del modelo, el cual a medida que se alimente con más datos, podrá ser cada vez más especifico. En esta primera fase, con la clasificación brindada, el modelo nos permite saber cuales son los puntos fuertes de nuestro servicio, porque nos eligen los usuarios y también cuales son los aspectos a mejorar. </p>
+
+<p> En una segunda fase, podremos optimizar el modelo, creando nuevas ramas (divisiones), de manera de tener un panorama más especifico aún. Ejemplo:</p>
 
 Recomendación por:
 - el conductor
@@ -216,21 +223,31 @@ Queja por:
 
 - #### **Preprocesamiento de texto y vectorización:**
 - Utiliza el vectorizador TF-IDF para convertir las reseñas de texto en una representación numérica.
+- Éste realiza una tokenización automática como parte de su proceso interno.
 - Elimina palabras comunes en inglés (stop words) para mejorar la calidad de las características.
+
+- #### **Oversampling:**
+- Aplicamos la técnica de sobremuestreo sintético conocida como SMOTE (Synthetic Minority Over-sampling Technique) para abordar el 
+  desbalanceo en la base de datos. 
+
 - #### **División de datos:**
 - Divide el conjunto de datos en conjuntos de entrenamiento y prueba (80% entrenamiento, 20% prueba).
-- Entrenamiento del modelo de árbol de decisión:
+
+- #### **Entrenamiento del modelo de árbol de decisión:**
 - Crea un clasificador de árbol de decisión utilizando los datos de entrenamiento.
+
 - #### **Predicciones y evaluación del modelo:**
 - Realiza predicciones sobre el conjunto de prueba.
 - Evalúa el rendimiento del modelo utilizando métricas como precisión, recall y F1-score.
 
 **Deploy: Streamlit:** 
 <p>Elegimos esta herramienta, porque brinda una interfaz de usuario amigable, para consultar el modelo</p>
+<p>En ella se ingresa una reseña y el sistema de IA la clasifica y además realiza un análisis de sentimeinto</p>
+
+Pruebalo [Link](https://mainpy-uvcgmcf5g8n9io9bvxvx7e.streamlit.app/)
 
 
-
-
+## **Conclusiones**
 
 
 
