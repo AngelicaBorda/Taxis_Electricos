@@ -150,7 +150,7 @@ Al adoptar este enfoque, hemos experimentado una serie de beneficios significati
 
 ## KPIs
 
-1. ### **Eficiencia de la Flota Eléctrica:**
+1. ## **Eficiencia de la Flota Eléctrica:**
 
 - **Objetivo:** Evaluar la eficiencia de los vehículos eléctricos en comparación con los vehículos convencionales.
 
@@ -159,16 +159,16 @@ Al adoptar este enfoque, hemos experimentado una serie de beneficios significati
 - **Meta:** Alcanzar una eficiencia de un 15% en un año, en la flota de vehículos eléctricos, en comparación con la flota de vehículos tradicionales. 
 
 
-2. ### **Retorno de Inversión de los vehículos:**
+2. ## **Retorno de Inversión de los vehículos:**
 
 - **Objetivo:** Evaluar en el término de vida útil de un taxi en Nueva York, el porcentaje de recupero de la inversión teniendo en cuenta el ahorro anual en combustible.
 
 - **Fórmula:** ((Costo de carga auto convencional — Costo de carga auto eléctrico) / Precio del vehículo eléctrico) * 100
 
-- **Meta:** Lograr una eficiencia mayor al 10%. Con el ahorro anual de combustible se debe obtener el 10% del valor del vehículo nuevo.
+- **Meta:** Lograr una eficiencia mayor al 5%. Con el ahorro anual de combustible se debe obtener el 5% del valor del vehículo nuevo.
 
 
-3. ### **Reducción Porcentual de Emisiones de CO2**
+3. ## **Reducción Porcentual de Emisiones de CO2**
 
 - **Objetivo:** Calcular la reducción potencial de CO2 al implementar vehículos eléctricos.
 
@@ -177,7 +177,7 @@ Al adoptar este enfoque, hemos experimentado una serie de beneficios significati
 - **Meta:** Alcanzar una reducción del 30% anual en las emisiones de CO2 por kilómetro con la introducción de vehículos eléctricos, en comparación con los vehículos convencionales.
 
 
-4. ### **Reducción Porcentual de Contaminación Sonora**
+4. ## **Reducción Porcentual de Contaminación Sonora**
 
 - **Objetivo:** Calcular la reducción potencial de contaminación sonora al implementar vehículos eléctricos.
 
@@ -244,10 +244,17 @@ Queja por:
 <p>Elegimos esta herramienta, porque brinda una interfaz de usuario amigable, para consultar el modelo</p>
 <p>En ella se ingresa una reseña y el sistema de IA la clasifica y además realiza un análisis de sentimeinto</p>
 
-Pruebalo [Link](https://mainpy-uvcgmcf5g8n9io9bvxvx7e.streamlit.app/)
+Pruebalo [Link](https://transporter.streamlit.app/)
 
 
 ## **Conclusiones**
+
+<p>Conforme se ha señalado en las conslusiones a las que ha llegado el equipo, las cuales se pueden vislumbrar en el dahsboard Link  [Link](https://drive.google.com/file/d/1qcSgpKRyq-e4ZTRkPn9F-K0DkLNLt1-q/view?usp=sharing/) </p>
+
+<p>Es esencial considerar las tendencias del mercado global, como también la tendencia de la opinión publica y las exigencias normativas, que todas van encaminadas al desuso de los vehiculos convencionales y la incorporación de los vehículos electricos. </p>
+
+<p>En este contexto, la implementación de vehículos eléctricos ofrece numerosos beneficios, no solo en términos de sostenibilidad ambiental, sino también en eficiencia operativa y ahorro económico a largo plazo. Además, el uso de tecnologías como Machine Learning permitirá anticipar y responder a las necesidades futuras del mercado y sus usuarios, optimizando aún más sus operaciones y servicios.</p>
+
 
 
 
