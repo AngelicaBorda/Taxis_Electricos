@@ -249,7 +249,7 @@ Pruebalo [Link](https://transporter.streamlit.app/)
 
 ## **Conclusiones**
 
-<p>Conforme se ha señalado en las conslusiones a las que ha llegado el equipo, las cuales se pueden vislumbrar en el dahsboard Link  [Link](https://drive.google.com/file/d/1qcSgpKRyq-e4ZTRkPn9F-K0DkLNLt1-q/view?usp=sharing/) </p>
+Conforme se ha señalado en las conslusiones a las que ha llegado el equipo, las cuales se pueden vislumbrar en el dahsboard   [Link](https://drive.google.com/file/d/1qcSgpKRyq-e4ZTRkPn9F-K0DkLNLt1-q/view?usp=sharing/) 
 
 <p>Es esencial considerar las tendencias del mercado global, como también la tendencia de la opinión publica y las exigencias normativas, que todas van encaminadas al desuso de los vehiculos convencionales y la incorporación de los vehículos electricos. </p>
 
