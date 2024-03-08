@@ -59,9 +59,6 @@ Link de diagrama de Gantt:  [Link](https://docs.google.com/spreadsheets/d/1AJHGS
 <p>Funciones integradas para limpieza y transformación de datos.</p>
 <p>Compatibilidad con diversas fuentes de datos.</p>
 
-- ### **Beautiful Soup: para web scraping**
-**Fundamentación:**
-<p>Fácil implementación de hacking ético.</p>
 
 3. ## **Análisis Exploratorio de Datos (EDA):**
 
@@ -188,6 +185,9 @@ Al adoptar este enfoque, hemos experimentado una serie de beneficios significati
 
 ## **Diseño del Modelo ER**
 
+<p>En el desarrollo del proyecto, nos enfrentamos al desafío de integrar datos de diversas fuentes, donde la relación principal se basaba en el factor temporal, generando una complejidad adicional debido a que muchos conjuntos de datos estaban vinculados con múltiples años y viceversa. Esta dinámica de "muchos a muchos" surgió de la naturaleza temporal de los datos y la necesidad de correlacionar información a lo largo del tiempo. En este contexto, las tablas de hechos fueron fundamentales, dado que la información recopilada se orientaba principalmente hacia eventos cuantificables, como mediciones ambientales y tarifas. Este enfoque permitió una estructuración eficaz de datos numéricos y una análisis directo y eficiente, alineado con los objetivos del proyecto.</p>
+
+<img src="https://github.com/samuelchacon00/PF_PT05_G8/blob/main/diseño_ER.jpeg">
 
 ## **Modelo de ML**
 
@@ -249,7 +249,7 @@ Pruebalo [Link](https://transporter.streamlit.app/)
 
 ## **Conclusiones**
 
-Conforme a las conslusiones a las que llegó el equipo, las cuales se pueden visualizar en el dahsboard [Link][/https://drive.google.com/file/d/1qcSgpKRyq-e4ZTRkPn9F-K0DkLNLt1-q/view?usp=drive_link/] 
+Conforme a las conslusiones a las que llegó el equipo, las cuales se pueden visualizar en el dahsboard [Link][https://drive.google.com/file/d/1QcA5MRNiQJHVgN2kXNfeBHHRKHT9jV3Q/view?usp=drive_link] 
 
 <p>Consideramos esencial seguir la tendencia del mercado global, la tendencia de la opinión publica y las exigencias normativas, que todas van encaminadas al desuso de los vehiculos convencionales y la incorporación de los vehículos electricos. </p>
 
@@ -261,4 +261,3 @@ Conforme a las conslusiones a las que llegó el equipo, las cuales se pueden vis
 
 
 
-[def]: https://drive.google.com/file/d/1qcSgpKRyq-e4ZTRkPn9F-K0DkLNLt1-q/view?usp=sharing/
