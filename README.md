@@ -249,9 +249,9 @@ Pruebalo [Link](https://transporter.streamlit.app/)
 
 ## **Conclusiones**
 
-Conforme se ha señalado en las conslusiones a las que ha llegado el equipo, las cuales se pueden vislumbrar en el dahsboard   [Link](https://drive.google.com/file/d/1qcSgpKRyq-e4ZTRkPn9F-K0DkLNLt1-q/view?usp=sharing/) 
+Conforme a las conslusiones a las que llegó el equipo, las cuales se pueden visualizar en el dahsboard   [Link](https://drive.google.com/file/d/1qcSgpKRyq-e4ZTRkPn9F-K0DkLNLt1-q/view?usp=sharing/) 
 
-<p>Es esencial considerar las tendencias del mercado global, como también la tendencia de la opinión publica y las exigencias normativas, que todas van encaminadas al desuso de los vehiculos convencionales y la incorporación de los vehículos electricos. </p>
+<p>Consideramos esencial seguir la tendencia del mercado global, la tendencia de la opinión publica y las exigencias normativas, que todas van encaminadas al desuso de los vehiculos convencionales y la incorporación de los vehículos electricos. </p>
 
 <p>En este contexto, la implementación de vehículos eléctricos ofrece numerosos beneficios, no solo en términos de sostenibilidad ambiental, sino también en eficiencia operativa y ahorro económico a largo plazo. Además, el uso de tecnologías como Machine Learning permitirá anticipar y responder a las necesidades futuras del mercado y sus usuarios, optimizando aún más sus operaciones y servicios.</p>
 
